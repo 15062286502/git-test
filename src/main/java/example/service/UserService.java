@@ -1,15 +1,12 @@
 package example.service;
-
 import example.dao.usedao;
 import example.entity.Goods;
 import example.entity.User;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class UserService {
-
     public String  login(String username) throws IOException {
         usedao u=new usedao();
         return u.add(username);
