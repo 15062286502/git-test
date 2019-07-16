@@ -1,5 +1,4 @@
 package example.controller;
-
 import example.entity.Goods;
 import example.entity.User;
 import example.service.UserService;
@@ -11,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
-
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.ArrayList;
